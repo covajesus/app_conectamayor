@@ -186,11 +186,10 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-6" v-if="form.link_question_id == 1">
-                                        <label for="exampleInputEmail1">Url o enlace</label>
+                                        <label for="exampleInputEmail1">Url o enlace (Ejemplo: https://google.com)</label>
                                         <input
                                             type="text" 
                                             v-model="form.url" 
-                                            v-mask="'http://XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'"
                                             class="form-control"
                                             placeholder="Ingresa la url o enlace"
                                         >
